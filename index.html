@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kanban de Vendas</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="kanban-board">
+    <div class="kanban-column">
+      <h2>Clientes/Hoje</h2>
+      <div class="kanban-column-content" id="clientes-hoje" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+    </div>
+
+    <div class="kanban-column">
+      <h2>Em Negociação</h2>
+      <div class="kanban-column-content" id="em-negociacao" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+    </div>
+
+    <div class="kanban-column">
+      <h2>Em Análise</h2>
+      <div class="kanban-column-content" id="em-analise" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+    </div>
+
+    <div class="kanban-column">
+      <h2>Concluídos</h2>
+      <div class="kanban-column-content" id="concluidos" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+    </div>
+
+    <div class="kanban-column">
+      <h2>Sem Contato</h2>
+      <div class="kanban-column-content" id="sem-contato" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+    </div>
+  </div>
+
+  <button id="add-card-btn">Adicionar Cartão</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
