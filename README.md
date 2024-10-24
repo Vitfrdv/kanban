@@ -22,13 +22,13 @@ Uma aplicação web de Kanban que permite a organização eficiente de tarefas p
 1. Clone o repositório:
 
    ```bash
-   git clone https://github.com/seuusuario/seurepositorio.git
+   git clone git@github.com:Vitfrdv/kanban.git
    ```
 
 2. Navegue até o diretório da aplicação:
 
    ```bash
-   cd seurepositorio
+   cd kanban
    ```
 
 3. Abra o arquivo `index.html` em um navegador.
